@@ -37,7 +37,7 @@
 			}
 
 			.meta {
-				@include padding(_size(section-spacing) * 1.25, _size(section-spacing));
+				padding: 3.75em 3em 1.75em 1em;
 				border-left: solid 1px _palette(border);
 				min-width: 17em;
 				text-align: right;

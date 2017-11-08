@@ -30,4 +30,33 @@
 			padding: _size(section-spacing) 0 0 0;
 			width: 100%;
 		}
+
+		.archive-plus {
+			label {
+				width: 0;
+				line-height: initial;
+				
+				&:after {
+					color: gray;
+				}
+			}
+
+			li {
+				margin: 0;
+				padding: 0;
+			}
+
+			ul .last {
+				margin-bottom: 0;
+			}
+		}
+
+		section {
+			padding: 0;
+		}
+
+		.posts li {
+			margin: 0.5em 0 0 0;
+			padding: 0.5em 0 0 0;
+		}
 	}
